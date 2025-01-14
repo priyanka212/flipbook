@@ -37,7 +37,7 @@
     function findGetParameter() {
     var result = null,
         tmp = [];
-    var items = location.search.substr(1);
+    var items = window.location.search.substr(1);
         tmp = items[index].split("=");
         result = decodeURIComponent(tmp[1]);
     }
